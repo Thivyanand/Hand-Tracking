@@ -57,3 +57,7 @@ Finger up detection logic:
 
 ```python
 tip.y < pip.y
+
+## Installations
+
+pip install opencv-python mediapipe numpy
