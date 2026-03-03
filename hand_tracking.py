@@ -65,7 +65,7 @@ while True:
             elif total_fingers == 3:
                 color = (255, 0, 0)  # BLUE
 
-            # Pinky only → erase
+            # Pinky only erase
             if fingers == [False, False, False, True]:
                 draw_points.clear()
 
@@ -109,3 +109,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
